@@ -1,0 +1,7 @@
+.ps-drawer {
+    @media screen and (max-width: 480px) {
+        .ant-drawer-content-wrapper {
+            width: 100% !important;
+        }
+    }
+}

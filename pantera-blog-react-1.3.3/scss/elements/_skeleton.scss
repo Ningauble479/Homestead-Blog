@@ -1,0 +1,40 @@
+.ps-skeleton--detail-with-hero {
+    .ps-skeleton__top {
+        height: 100vh;
+        max-height: 350px;
+        background-color: #f4f4f4;
+    }
+
+    .ps-skeleton__content {
+        height: 100vh;
+        max-height: 100vh;
+        background-color: #fff;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .ps-skeleton__top {
+            max-height: 650px;
+
+        }
+        .ps-skeleton__content {
+            position: relative;
+            top: -150px;
+            margin: 0 auto -150px;
+            height: 100vh;
+            max-height: 100vh;
+            max-width: 950px;
+        }
+    }
+}
+
+.ps-skeleton--hero-fullscreen {
+    height: 100vh;
+    background-color: $color-gray;
+    @media screen and (min-width: 1200px) {
+        max-height: 500px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        max-height: 650px;
+    }
+}

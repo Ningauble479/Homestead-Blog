@@ -1,0 +1,51 @@
+.form-control {
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    padding: 0 20px;
+    border: none;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: 0 0 rgba(#000, 0);
+    transition: all 0.4s ease;
+    box-shadow: 0 0 0 #000;
+    @include placeholder() {
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 #000;
+        border-color: $color-1st;
+    }
+
+    &.ant-input {
+        height: 50px;
+        border-radius: 0;
+        border: 1px solid #dddddd;
+        &:focus {
+            border-color: $color-1st;
+            outline: none;
+            box-shadow: 0 0 0 transparent;
+        }
+    }
+}
+
+.ant-select {
+    .ant-select-selection {
+        height: 50px;
+        border: none;
+        border-radius: 0;
+        .ant-select-selection__rendered {
+            line-height: 50px;
+        }
+    }
+}
+
+textarea.form-control {
+    height: auto;
+    padding: 2rem;
+    resize: none;
+}

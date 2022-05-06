@@ -1,0 +1,29 @@
+.ps-panel--menu-sidebar {
+    position: relative;
+    padding-bottom: 50px;
+    height: 100%;
+    .ps-drawer__close {
+        i {
+            font-size: 30px;
+        }
+    }
+
+    .ps-panel__header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ps-panel__content {
+        padding-top: 30px;
+    }
+
+    .ps-panel__footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+}

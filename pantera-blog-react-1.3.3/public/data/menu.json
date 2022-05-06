@@ -1,0 +1,187 @@
+{
+    "primaryMenu": [
+        {
+            "id": "1",
+            "text": "Homepages",
+            "url": "/",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "id": "1",
+                    "text": "Home Default",
+                    "url": "/"
+                },
+                {
+                    "id": "2",
+                    "text": "Home Grid",
+                    "url": "/homepage/home-grid"
+                },
+                {
+                    "id": "3",
+                    "text": "Home Grid With Sidebar",
+                    "url": "/homepage/home-grid-with-sidebar"
+                },
+                {
+                    "id": "4",
+                    "text": "Home Personal",
+                    "url": "/homepage/home-personal"
+                },
+                {
+                    "id": "5",
+                    "text": "Home sidebar left",
+                    "url": "/homepage/home-sidebar-left"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "text": "Blog",
+            "url": "/blog",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "id": "0_1",
+                    "text": "Layouts",
+                    "url": "/blog/layouts/boxed",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "id": "1",
+                            "text": "Boxed",
+                            "url": "/blog/layouts/boxed"
+                        },
+                        {
+                            "id": "2",
+                            "text": "fullwidth",
+                            "url": "/blog/layouts/fullwidth"
+                        },
+                        {
+                            "id": "3",
+                            "text": "with sidebar",
+                            "url": "/blog/layouts/sidebar"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "text": "Styles",
+                    "url": "/blog/styles/with-post-grid",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "id": "1",
+                            "text": "With Classic",
+                            "url": "/blog/styles/with-classic"
+                        },
+                        {
+                            "id": "2",
+                            "text": "With Post Grid",
+                            "url": "/blog/styles/with-post-grid"
+                        },
+                        {
+                            "id": "3",
+                            "text": "With Post Horizontal",
+                            "url": "/blog/styles/with-post-horizontal"
+                        },
+                        {
+                            "id": "3_1",
+                            "text": "With Post Inside",
+                            "url": "/blog/styles/with-post-inside"
+                        },
+                        {
+                            "id": "4",
+                            "text": "With Post Vertical",
+                            "url": "/blog/styles/with-post-vertical"
+                        },
+                        {
+                            "id": "5",
+                            "text": "With Only Text",
+                            "url": "/blog/styles/with-only-text"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "text": "Without Hero",
+                    "url": "/blog/without-hero"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "text": "Posts",
+            "url": "/",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "id": "1",
+                    "text": "Post Detail",
+                    "url": "/",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "id": "1",
+                            "text": "Default",
+                            "url": "/post/one-simple-word-to-success"
+                        },
+                        {
+                            "id": "2",
+                            "text": "With sidebar",
+                            "url": "/post/with-sidebar/one-simple-word-to-success"
+                        },
+                        {
+                            "id": "3",
+                            "text": "With sidebar right",
+                            "url": "/post/with-sidebar-right/one-simple-word-to-success"
+                        },
+                        {
+                            "id": "4",
+                            "text": "With hero",
+                            "url": "/post/with-hero/one-simple-word-to-success"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "text": "Post types",
+                    "url": "/post/post-types"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "text": "Pages",
+            "url": "/",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "id": "1",
+                    "text": "About Us ",
+                    "url": "/page/about-us"
+                },
+                {
+                    "id": "2",
+                    "text": "About Us 2",
+                    "url": "/page/about-us-2"
+                },
+                {
+                    "id": "3",
+                    "text": "Contact Us",
+                    "url": "/page/contact-us"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "text": "Contact Us",
+            "url": "/page/contact-us"
+        }
+    ]
+}

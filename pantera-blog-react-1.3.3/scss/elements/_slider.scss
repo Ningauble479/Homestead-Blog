@@ -1,0 +1,122 @@
+.ps-carousel {
+    position: relative;
+
+    .slick-arrow {
+        @include vertical-align();
+        width: 36px;
+        height: 36px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        z-index: 100;
+        background-color: rgba(#fff, 0.5);
+        transition: all .4s ease;
+        transform: translateY(-50%);
+        @include hidden;
+
+        i {
+            font-size: 20px;
+        }
+
+        &:hover {
+            background-color: $color-1st;
+            color: #fff;
+        }
+
+        &.slick-prev {
+            left: 0;
+
+        }
+
+        &.slick-next {
+            right: 0;
+        }
+    }
+
+    .slick-dots {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+
+        > li {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: top;
+
+            button {
+                display: block;
+                vertical-align: top;
+                padding: 0;
+                font-size: 0;
+                border-radius: 0;
+                border: none;
+                width: 10px;
+                height: 10px;
+                background-color: rgba(#fff, 1);
+                border-radius: 50px;
+
+                &:hover {
+                    background-color: $color-1st;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.slick-active {
+                button {
+                    width: 30px;
+                    background-color: $color-1st;
+                }
+            }
+        }
+    }
+
+    .ps-post {
+        margin-bottom: 0 !important;
+    }
+
+    &:hover {
+        .slick-arrow {
+            @include show;
+        }
+    }
+
+    &.gap {
+        .slick-next {
+            margin-right: 10px;
+        }
+        .slick-prev {
+            margin-left: 10px;
+        }
+
+        .slick-list {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    &.nav-outside {
+        .slick-prev {
+            left: -50px;
+        }
+
+        .slick-next {
+            right: -50px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .slick-arrow {
+            display: none;
+        }
+    }
+}
+

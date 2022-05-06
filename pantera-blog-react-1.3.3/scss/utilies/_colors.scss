@@ -1,0 +1,74 @@
+$color-1st: #ef534f;
+$color-2nd: #2c1dff;
+
+
+$color-info: #96ed89;
+
+$color-info-lighter: lighten($color-info, 20%);
+$color-info-light: lighten($color-info, 10%);
+$color-info-dark: darken($color-info, 10%);
+$color-info-darker: darken($color-info, 20%);
+
+$color-warning: #faa806;
+
+$color-warning-lighter: lighten($color-warning, 20%);
+$color-warning-light: lighten($color-warning, 10%);
+$color-warning-dark: darken($color-warning, 10%);
+$color-warning-darker: darken($color-warning, 20%);
+
+$color-danger: #ec2434;
+
+$color-danger-lighter: lighten($color-danger, 20%);
+$color-danger-light: lighten($color-danger, 10%);
+$color-danger-dark: darken($color-danger, 10%);
+$color-danger-darker: darken($color-danger, 20%);
+
+$color-border: #e4e4e4;
+
+$color-border-lighter: lighten($color-border, 20%);
+$color-border-light: lighten($color-border, 10%);
+$color-border-dark: darken($color-border, 10%);
+$color-border-darker: darken($color-border, 20%);
+
+$color-text: #707070;
+
+$color-text-lighter: lighten($color-text, 20%);
+$color-text-light: lighten($color-text, 10%);
+$color-text-dark: darken($color-text, 10%);
+$color-text-darker: darken($color-text, 20%);
+
+$color-contrast: #fff;
+
+$color-contrast-lower: darken($color-contrast, 5%);
+$color-contrast-low: darken($color-contrast, 17%);
+$color-contrast-medium: darken($color-contrast, 52%);
+$color-contrast-high: darken($color-contrast, 80%);
+$color-contrast-high: darken($color-contrast, 88%);
+
+$color-heading: #222;
+$color-dark: var(--color-dark);
+$color-dark-lighter: var(--color-dark-lighter);
+$color-bg: #353353;
+$color-bg-yellow: #fef8e2;
+$color-bg-green: #ddfced;
+$color-bg-pink: #ffe8e6;
+$color-bg-purple: #e6edff;
+
+$color-2nd: #222222;
+$color-3rd: #5e6b9d;
+$color-heading: #000;
+$color-text: #666;
+$color-text-2: #555;
+$color-dark: #161824;
+$color-link: #06c;
+
+$color-success: #669900;
+$color-warning: #faa806;
+$color-danger: #ec0101;
+$color-gray: #9e9e9e;
+$color-facebook: #3b5999;
+$color-twitter: #55acee;
+$color-google: #dd4b39;
+$color-linkedin: #0077b5;
+$color-instagram: #0077b5;
+$document-font-size: 14px;

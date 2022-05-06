@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/instagrams",
+      "handler": "instagram.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/instagrams/count",
+      "handler": "instagram.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/instagrams/:id",
+      "handler": "instagram.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/instagrams",
+      "handler": "instagram.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/instagrams/:id",
+      "handler": "instagram.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/instagrams/:id",
+      "handler": "instagram.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.ps-collection--highlight {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+
+    .ps-section__header {
+        padding-bottom: 20px;
+
+        h3 {
+            text-transform: uppercase;
+            text-transform: capitalize;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 60px 0;
+        .ps-section__header {
+            padding-bottom: 30px;
+        }
+    }
+    @media screen and (min-width: 1366px) {
+        padding: 80px 0;
+        .ps-section__header {
+            padding-bottom: 40px;
+        }
+    }
+}
+
+.ps-colection--with-hero {
+
+    @media screen and (min-width: 1280px) {
+        &.with-container {
+            padding: 50px 0;
+            .ps-post--fullscreen {
+                max-height: 500px;
+                .ps-post__title {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}

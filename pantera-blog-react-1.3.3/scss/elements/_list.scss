@@ -1,0 +1,233 @@
+.ps-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        display: flex;
+        flex-flow: row nowrap;
+        line-height: 1.8em;
+        padding: 4px 0;
+        color: $color-text;
+        transition: all 0.25s ease;
+    }
+
+    li {
+        display: block;
+    }
+}
+
+.ps-list--social {
+    margin: 0;
+    padding: 0;
+
+    li {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+
+        a {
+            display: inline-block;
+            font-size: 18px;
+            color: $color-text;
+
+            &:hover {
+                color: $color-1st;
+            }
+
+            &.facebook {
+                i {
+                    color: #3b5998;
+                }
+            }
+
+            &.twitter {
+                i {
+                    color: #0084b4;
+                }
+            }
+
+            &.google-plus {
+                i {
+                    color: #ff0000;
+                }
+            }
+
+            &.instagram {
+                i {
+                    color: #c32aa3;
+                }
+            }
+        }
+    }
+}
+
+.ps-list--social-color {
+    margin: 0;
+    padding: 0;
+
+    li {
+        position: relative;
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: top;
+
+        a {
+            display: inline-block;
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: #636363;
+            border: 1px solid #404040;
+
+            i {
+                @include center;
+                font-size: 18px;
+            }
+
+            &:hover {
+                color: $color-1st;
+                border-color: $color-1st;
+                background-color: $color-1st;
+
+                i {
+                    color: #ffffff;
+                }
+            }
+
+            &.facebook {
+                background-color: #3b5998;
+
+                i {
+                    color: #ffffff;
+                }
+            }
+
+            &.twitter {
+                background-color: #0084b4;
+
+                i {
+                    color: #ffffff;
+                }
+            }
+
+            &.google-plus {
+                background-color: #FF0000;
+
+                i {
+                    color: #ffffff;
+                }
+            }
+
+            &.instagram {
+                i {
+                    color: #C32AA3;
+                }
+            }
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &.simple {
+        li {
+            margin-right: 0;
+
+            a {
+                width: 30px;
+                height: 30px;
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+
+    &.square {
+        li {
+            margin-right: 10px;
+
+            a {
+                width: 85px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0;
+                border: none;
+            }
+        }
+    }
+}
+
+.ps-list--arrow {
+    a {
+        display: flex;
+        flex-flow: row nowrap;
+        line-height: 1.8em;
+        padding: 4px 0;
+        color: $color-text;
+        transition: all 0.25s ease;
+
+        &:before {
+            content: '\f105';
+            font-family: FontAwesome;
+            padding-right: 0.5em;
+            transition: all 0.4s ease;
+        }
+
+        &:hover {
+            color: $color-1st;
+
+            &:before {
+                padding-right: 0.75em;
+            }
+        }
+    }
+
+    li {
+        display: block;
+    }
+}
+
+.ps-list--with-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    a {
+        min-width: 100px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: $color-text;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 500;
+
+        &:hover {
+            color: $color-heading;
+            background-color: darken(#f9f9f9, 10%);
+        }
+    }
+
+    li {
+        margin-right: 4px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &.active {
+            a {
+                color: $color-heading;
+                background-color: darken(#f9f9f9, 10%);
+            }
+        }
+    }
+
+}

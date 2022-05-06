@@ -1,0 +1,40 @@
+.ps-breadcrumb {
+    padding: 16px 0;
+    background-color: #eaeaea;
+
+    .breadcrumb {
+        margin-bottom: 0;
+        background-color: transparent;
+
+        li {
+            position: relative;
+            display: inline-block;
+            color: $color-heading;
+            font-size: 12px;
+
+            &:before {
+                content: '/';
+                display: inline-block;
+                vertical-align: middle;
+                padding-left: 0.5em;
+                margin-right: 0.5em;
+                color: $color-text;
+            }
+
+            a {
+                font-size: 12px;
+                color: $color-text;
+
+                &:hover {
+                    color: $color-1st;
+                }
+            }
+
+            &:first-child {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
